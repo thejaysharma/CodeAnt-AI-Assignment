@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils"
 import PropTypes from "prop-types";
 
 const buttonVariants = cva(
-  "border rounded-lg border-solid flex justify-center items-center",
+  "border rounded-lg border-solid flex justify-center items-center shadow-sm",
   {
     variants: {
       variant: {
@@ -14,9 +14,9 @@ const buttonVariants = cva(
           "bg-white border-[#D5D7DA] text-[#171717]",
       },
       size: {
-        default: "px-2.5 py-2.5 text-sm not-italic font-normal leading-5",
-        md: "px-2.5 py-3 text-base not-italic font-semibold leading-6",
-        lg: "px-2.5 py-4 text-base not-italic font-semibold leading-7",
+        default: "px-3.5 py-2.5 text-sm not-italic font-normal leading-5",
+        md: "px-3.5 py-3 text-base not-italic font-semibold leading-6",
+        lg: "px-3.5 py-4 text-base not-italic font-semibold leading-7",
       },
     },
     defaultVariants: {

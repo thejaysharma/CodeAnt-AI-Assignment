@@ -3,9 +3,9 @@ import LOGO from "@assets/logo.svg";
 import ANTPIECHART from "@assets/ant-design_pie-chart-filled.svg";
 import ArrowUp from "@assets/Icons/arrow-up.svg";
 import { useState } from "react";
-import { loginSAASOptions, loginSelfHostedOptions, toogleOptions } from "@/constants/login";
-import ToggleSwitch from "../switch/toggleSwitch";
-import { Button } from "../ui/button";
+import { loginSAASOptions, loginSelfHostedOptions, toogleOptions } from "@/constants/loginData";
+import { Button } from "@/components/ui/button";
+import ToggleSwitch from "@/components/switch/toggleSwitch";
 
 
 export default function Login() {
